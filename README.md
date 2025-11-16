@@ -109,22 +109,14 @@ Vestnik NTsBZhD (4), pp. 5–13, 2020.
 ## Developer Installation (Local Testing)
 
 ```bash
+# Clone the repository (replace with your actual repository URL if different)
+git clone https://github.com/JazLOT/FakeNewsDetector101_Extensions.git
+cd FakeNewsDetector101_Extensions
 
-## Credits and Contributors
+# Chrome installation:
+# Open chrome://extensions → Enable Developer Mode → Load unpacked
+# Select the folder: FakeNewsDetector101_Chrome/
 
-**Project Owner / Lead Developer**  
-JazLOT (Jazli Zharfan)  
-Email: jazlizharfan@outlook.com
-
-**Datasets and Model Credits**  
-Husein Zolkepli (Malay Dataset, Malaya NLP Toolkit)  
-Gor Abaghyan (Kaggle Fake News Dataset)
-
-**Academic Credits**  
-Authors of the Kazan Digital Week 2020 research paper  
-Malay NLP research community
-
-**Special Thanks**  
-Open-source contributors  
-Developers maintaining public datasets  
-Testing volunteers and feedback contributors
+# Firefox installation:
+# Open about:debugging#/runtime/this-firefox → Load Temporary Add-On
+# Select manifest.json inside: FakeNewsDetector101_Firefox/
