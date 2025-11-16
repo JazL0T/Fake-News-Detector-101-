@@ -120,3 +120,4 @@ cd FakeNewsDetector101_Extensions
 # Firefox installation:
 # Open about:debugging#/runtime/this-firefox → Load Temporary Add-On
 # Select manifest.json inside: FakeNewsDetector101_Firefox/
+
