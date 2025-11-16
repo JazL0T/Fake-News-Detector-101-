@@ -1,30 +1,30 @@
 # Fake News Detector 101 — Browser Extensions
 
 **Fake News Detector 101** is an AI-powered tool designed to help users identify misleading, biased, or false online news.  
-This repository contains the **Chrome** and **Firefox** browser extensions, along with supporting files.
+This repository contains the Chrome and Firefox browser extensions, along with supporting files.
 
-The system connects to a **private backend API** to analyze article content using machine learning and explainable AI.
+The system connects to a private backend API to analyze article content using machine learning and explainable AI.
 
 ---
 
 ## Features
 
-- **Scan any online article** instantly  
-- **AI-powered classification** (Fake / Real / Uncertain)  
-- **Confidence scoring**  
-- **Explainability output** (keywords, tone, reasoning)  
-- **English + Malay language support**  
-- **Fast & lightweight browser extension**  
-- **Secure API communication (HTTPS + JWT)**  
-- **Chrome & Firefox versions included**
+- Scan any online article instantly  
+- AI-powered classification (Fake / Real / Uncertain)  
+- Confidence scoring  
+- Explainability output (keywords, tone, reasoning)  
+- English and Malay language support  
+- Fast and lightweight browser extension  
+- Secure API communication (HTTPS and JWT)  
+- Chrome and Firefox versions included
 
 ---
 
 ## How It Works
 
 1. User opens any news article  
-2. Clicks **Scan** in the extension  
-3. Extension extracts readable text  
+2. Clicks "Scan" in the extension  
+3. The extension extracts readable text  
 4. Sends it to the backend endpoint:  
    `POST /analyze`  
 5. Backend returns:  
@@ -32,7 +32,7 @@ The system connects to a **private backend API** to analyze article content usin
    - Confidence  
    - Explanation  
    - Model used  
-6. Result is displayed in the UI
+6. The result is displayed in the extension interface
 
 ---
 
@@ -43,8 +43,6 @@ The browser extensions require the Fake News Detector backend:
 **Backend API:**  
 `https://fakenewsdetector-zjzs.onrender.com`
 
-
-
 ---
 
 ## Official Links
@@ -52,11 +50,13 @@ The browser extensions require the Fake News Detector backend:
 | Resource | URL |
 |---------|-----|
 | Website | https://www.fakenewsdetector101.com |
+| Chrome Web Store | https://chromewebstore.google.com/detail/fake-news-detector-101/llfhhohonloefjlehocppbjimjiihali |
+| Firefox Add-on | https://addons.mozilla.org/en-US/firefox/addon/fakenewsdetector101/ |
 | Backend API | https://fakenewsdetector-zjzs.onrender.com |
 | Frontend Source | *(to be added)* |
 | Privacy Policy | https://www.fakenewsdetector101.com/privacy-policy |
 | Terms of Service | https://www.fakenewsdetector101.com/terms-of-service |
-| Contact | **jazlizharfan@outlook.com** |
+| Contact | jazlizharfan@outlook.com |
 
 ---
 
@@ -64,16 +64,16 @@ The browser extensions require the Fake News Detector backend:
 
 | Component | Technology |
 |----------|------------|
-| **Backend** | Python (Flask), SQLite |
-| **Models** | Logistic Regression + TF-IDF |
-| **Frontend** | Chrome & Firefox Extensions |
-| **Explainability** | Keyword heuristics, confidence scoring |
-| **Deployment** | Render.com |
-| **Security** | HTTPS, JWT, Environment Protection |
+| Backend | Python (Flask), SQLite |
+| Models | Logistic Regression with TF-IDF |
+| Frontend | Chrome and Firefox Browser Extensions |
+| Explainability | Keyword heuristics and confidence scoring |
+| Deployment | Render.com |
+| Security | HTTPS, JWT authentication, environment variable protection |
 
 ---
 
-## Dataset Usage & Credits
+## Dataset Usage and Credits
 
 This project uses publicly available datasets for research and evaluation purposes.  
 Please credit the original dataset creators:
@@ -89,7 +89,7 @@ Please credit the original dataset creators:
 
 ---
 
-## Publication & Academic Reference
+## Publication and Academic Reference
 
 This project is connected to the following research publication:
 
@@ -109,14 +109,22 @@ Vestnik NTsBZhD (4), pp. 5–13, 2020.
 ## Developer Installation (Local Testing)
 
 ```bash
-# Clone the repository (replace if your URL differs)
-git clone https://github.com/JazLOT/FakeNewsDetector101_Extensions.git
-cd FakeNewsDetector101_Extensions
 
-# Chrome installation
-# Open chrome://extensions → Enable Developer Mode → Load unpacked
-# Select: /FakeNewsDetector101_Chrome/
+## Credits and Contributors
 
-# Firefox installation
-# Open about:debugging#/runtime/this-firefox → Load Temporary Add-On
-# Select the manifest.json inside: /FakeNewsDetector101_Firefox/
+**Project Owner / Lead Developer**  
+JazLOT (Jazli Zharfan)  
+Email: jazlizharfan@outlook.com
+
+**Datasets and Model Credits**  
+Husein Zolkepli (Malay Dataset, Malaya NLP Toolkit)  
+Gor Abaghyan (Kaggle Fake News Dataset)
+
+**Academic Credits**  
+Authors of the Kazan Digital Week 2020 research paper  
+Malay NLP research community
+
+**Special Thanks**  
+Open-source contributors  
+Developers maintaining public datasets  
+Testing volunteers and feedback contributors
