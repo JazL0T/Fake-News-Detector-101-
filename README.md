@@ -53,7 +53,6 @@ The browser extensions require the Fake News Detector backend:
 | Chrome Web Store | https://chromewebstore.google.com/detail/fake-news-detector-101/llfhhohonloefjlehocppbjimjiihali |
 | Firefox Add-on | https://addons.mozilla.org/en-US/firefox/addon/fakenewsdetector101/ |
 | Backend API | https://fakenewsdetector-zjzs.onrender.com |
-| Frontend Source | *(to be added)* |
 | Privacy Policy | https://www.fakenewsdetector101.com/privacy-policy |
 | Terms of Service | https://www.fakenewsdetector101.com/terms-of-service |
 | Contact | jazlizharfan@outlook.com |
