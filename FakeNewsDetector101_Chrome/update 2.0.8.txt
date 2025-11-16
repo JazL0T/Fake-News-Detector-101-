@@ -1,0 +1,42 @@
+✅ Fake News Detector 101 — Extension Update 2.0.8
+🔧 What’s New in 2.0.8
+1. Fixed Wrong Timestamp in History
+
+History was showing incorrect times due to Chrome’s auto-timezone conversion.
+✔ Replaced with manual UTC → MYT (+8h) conversion
+✔ Matches backend full-report timestamps exactly
+✔ No more random future/past times
+
+2. History Cards Now Fully Match Full Report
+
+✔ Prediction labels now use same logic as backend
+✔ Confidence formatting consistent with full report
+✔ Trust category colors unified (green/yellow/red)
+
+3. Improved Time Formatting Function
+
+✔ Introduced formatReportTime() with manual overflow handling
+✔ Ensures correct transition across day/month boundaries
+✔ No dependency on system timezone
+
+4. UI Alignment Improvements
+
+✔ History badges match website styling
+✔ Colors standardized
+✔ Cleaner spacing & card layout
+
+5. Cached Scan Sync Fix
+
+✔ Cached scan now auto-saves to history for logged-in users
+✔ No more missing entries in backend when using extension cache
+
+6. Better Error Handling
+
+✔ More robust fallback when time parsing fails
+✔ Clearer message when backend is unreachable
+
+7. Minor Performance Optimizations
+
+✔ Removed redundant DOM rebuilds
+✔ History loads faster
+✔ Reduced re-render flicker
