@@ -1,4 +1,4 @@
-# 📰 Fake News Detector 101 — Browser Extensions
+# Fake News Detector 101 — Browser Extensions
 
 **Fake News Detector 101** is an AI-powered tool designed to help users identify misleading, biased, or false online news.  
 This repository contains the **Chrome** and **Firefox** browser extensions, along with supporting files.
